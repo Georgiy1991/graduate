@@ -1,0 +1,23 @@
+.section-footer{
+    display: flex;
+    max-width: 2560px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    margin-top: 35px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1050px;
+    width: 100%;
+    margin: 30px auto 0;
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    flex-basis: 23%;
+    padding: 10px;
+}

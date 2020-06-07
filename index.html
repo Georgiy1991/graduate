@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./action_carusel.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container header">
+                <div class="logotype">
+                    <a href="./index.html"><img src="./pictures/photonix.png" alt="logo" class="logo-pict">
+                        <p class="logo-name">MusicDays</p>
+                    </a>
+                </div>
+                <div class="dates-search">
+                    <div class="call-us"><a>Контакты</a></div>
+                    <div class="search">
+                        <form>
+                            <input class="searchinp" type="text" value="" placeholder="Поиск" autofocus> 
+                            <button  class="searchbtn" type="submit" value=" " title="Начать поиск">Найти</button>
+                      </form>
+                    </div>
+                    <div class="cart-cabinet">
+                        <div class="cart-cabinet">
+                            <div class="cart-icon"> <i class="fas fa-shopping-cart fa-2x" "onclick=Cou"></i></div>
+                             <div class="catalog_counter">0</div>
+                         </div>  
+                       <i class="fas fa-user-circle fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container navigation">
+                <div class="dropdown"><button class="dropbtn"><a href="./catalog.html" link="white">Каталог товаров</a></button>
+                    <div class="dropdown-content">
+                      <a href="#">Гитары</a>
+                      <a href="#">Барабаны</a>
+                      <a href="#">Клавишные</a>
+                      <a href="#">Народные</a>
+                      <a href="#">Духовые</a>
+                    </div>
+                </div>
+                <div class="catalog">Акции</div>
+            </div>
+        </header>
+        <div class="container_cart"></div>
+        <div class="carousel-container">
+
+
+
+
+
+<!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+            <img class="imgslides" src="./pictures/tematikMusic/drums.jpg" style="width:100%">
+            <div class="text">Ударные инструменты</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <img class="imgslides" src="./pictures/tematikMusic/guitar.jpg" style="width:100%">
+            <div class="text">Струнные инструменты</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <img class="imgslides" src="./pictures/tematikMusic/classics.jpg" style="width:100%">
+            <div class="text">Классические инструменты</div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        </div>
+
+
+
+
+
+
+        <section class="container pre-continer">
+
+                <div class="mag-slogan"><p>MusicDays - онлайн-гипермаркет музыкальных инструментов и оборудования.
+                    <span>Что отличает нас от обычных магазинов с прилавком?</span>
+                    <span>Почему большинство наших клиентов становятся нашими друзьями?</span>
+                    <span> Всё очень просто:</span></p>
+                </div>
+                <div class="mag-text">
+                    <p>
+                        Команда MusicDays находится «на связи» с производителями, проходит
+                        мастер-классы от известных музыкантов, общается с мастерами и посещает значимые мировые 
+                        события музыкальной индустрии – выставки и форумы. Мы убеждены, что только развиваясь сами, 
+                        сможем в полной мере рассказать вам о всех плюсах и минусах товаров. Все наши знания мы 
+                        «транслируем» бесплатно! Ведь не стоит бояться задавать вопросы. Профессионалами не рождаются! 
+                        Мы тоже учились менять струны и «гуглили», что такое лигатура. Звоните, пишите – мы готовы рассказывать,
+                        консультировать, объяснять и показывать.
+                    </p>
+                    
+                    <p>Все наши сотрудники — музыканты Да, даже курьер. И директор и менеджеры. Зачем MusicMarket столько
+                        музыкантов? :) Мы уверены, что только музыкант сможет дать действительно компетентную консультацию, 
+                        ведь он разделяет ваши взгляды – инструмент это нечто большее, чем набор корпус/детали и технические 
+                        характеристики. Где бы не находилось ваше приобретение, будь то склад, точка самовывоза или машина 
+                        курьера, можно быть уверенным – рядом с ним находится понимающий человек.
+                        </p>
+                    <p>Ful Service Если с вашим инструментом произошел «несчастный случай» или вы только подозреваете,
+                        что что-то не так – просто свяжитесь с MusicMarket. Вам не придется решать кучу параллельных 
+                        задач – найти сервис конкретного бренда, поехать туда через весь город… Всем этим займется 
+                        наш менеджер, а вы можете лишь немного попереживать за вашего пострадавшего музыкального друга. 
+                        Хотя и этого делать не стоит – мы обязательно решим ситуацию.
+                    </p>
+                </div>
+        </section>
+
+        <div class="container navigation action-title">
+            <div class="catalog">АКЦИИ</div>
+        </div>
+
+
+        <div class="slideshow-container actionslideshow">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides2 fade">
+                <div class="container-goods">
+                    <div class="goods">
+                        <div class="action-mode">
+                            <div class="round-action">-50%</div>
+                            <div class="time-action">До конца акции осталось:</div>
+                        </div>  
+                        <img class="imgslides2" src="./pictures/goods/accordeon2.jpg" style="width:100%">
+                        <p>Это замечательный товар со скидкой!</p>
+                        <button class="buy">Заказать</button>
+                    </div>
+                    <div class="goods">
+                        <div class="action-mode">
+                            <div class="round-action">-35%</div>
+                            <div class="time-action">До конца акции осталось:</div>
+                        </div>  
+                        <img class="imgslides2" src="./pictures/goods/drum1.jpg" style="width:100%">
+                        <p>Это замечательный товар со скидкой!</p>
+                        <button class="buy">Заказать</button>
+                    </div>
+                    <div class="goods">
+                        <div class="action-mode">
+                            <div class="round-action">-10%</div>
+                            <div class="time-action">До конца акции осталось:</div>
+                        </div>  
+                        <img class="imgslides2" src="./pictures/goods/guitar1.jpg" style="width:100%">
+                        <p>Это замечательный товар со скидкой!</p>
+                        <button class="buy">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="mySlides2 fade">
+                <div class="container-goods">
+                    <div class="goods">
+                        <div class="action-mode">
+                            <div class="round-action">-30%</div>
+                            <div class="time-action">До конца акции осталось:</div>
+                        </div>                            
+
+                        <img class="imgslides2" src="./pictures/goods/bayan1.jpg" style="width:100%">
+                        <p>Это замечательный товар со скидкой!</p>
+                        <button class="buy">Заказать</button>
+                    </div>    
+                    <div class="goods">
+                        <div class="action-mode">
+                            <div class="round-action">-20%</div>
+                            <div class="time-action">До конца акции осталось:</div>
+                        </div>  
+                        <img class="imgslides2" src="./pictures/goods/drum2.jpg" style="width:100%">
+                        <p>Это замечательный товар со скидкой!</p>
+                        <button class="buy">Заказать</button>
+                    </div>    
+                    <div class="goods">
+                        <div class="action-mode">
+                            <div class="round-action">-15%</div>
+                            <div class="time-action">До конца акции осталось:</div>
+                        </div>  
+                        <img class="imgslides2" src="./pictures/goods/guitar2.jpg" style="width:100%">
+                        <p>Это замечательный товар со скидкой!</p>
+                        <button class="buy">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        
+        
+            <!-- Next and previous buttons -->
+            <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+            <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot2" onclick="currentSlide2(1)"></span>
+            <span class="dot2" onclick="currentSlide2(2)"></span>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="section-footer">
+            <footer class="footer">
+                <div class="footer-div">
+                    <a href="#">FAQ</a>
+                </div>
+                <div class="footer-div">
+                    <p>Сервис</p>
+                    <a href="#">Гарантия</a>
+                    <a href="#">Безусловная гарантия</a>
+                </div>
+                <div class="footer-div">
+                    <p>Магазин</p>
+                    <a href="#">О нас</a>
+                    <a href="#">Оплата</a>
+                    <a href="#">Доставка</a>
+                    <a href="#">Безналичный расчет</a>
+                    <a href="#">Реквизиты</a>
+                    <a href="#">Политика конфиденциальности</a>
+                </div>
+                <div class="footer-div">
+                    <a href="#">Контакты</a>
+                    <p>г. Минск, ул. Короля 20 <br>(вход со двора)</p>
+                    <p>+375(29)0080-33-44<br>
+                        +375(33)0080-33-44<br>
+                        +375(25)0080-33-44</p>
+                    <p>Пн-Вс 10.00 - 20.00</p>
+                    <a href="#">Посмотреть на карте</a>
+                </div>
+            </footer>
+        </div>    
+    </div>
+
+
+    <script src="./script.js"></script> 
+    <script src="./carusel2.js"></script> 
+    <script src="./script2.js"></script>
+    <script src="./createproduct.js"></script>
+    <script src="./store.js"></script>
+    <script src="./catalog.js"></script>
+    <script src="./cart.js"></script>
+</body>
+</html>

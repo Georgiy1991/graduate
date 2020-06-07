@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header">
+            <div class="logotype">
+                <a href="./index.html"><img src="./pictures/photonix.png" alt="logo" class="logo-pict">
+                    <p class="logo-name">MusicDays</p>
+                </a>
+            </div>
+            <div class="dates-search">
+                <div class="call-us"><a>Контакты</a></div>
+                <div class="search">
+                    <form>
+                        <input class="searchinp" type="text" value="" placeholder="Поиск" autofocus> 
+                        <button  class="searchbtn" type="submit" value=" " title="Начать поиск">Найти</button>
+                  </form>
+                </div>
+                <div class="cart-cabinet">
+                   <div class="cart-icon"> <i class="fas fa-shopping-cart fa-2x" onclick="cart"></i></div>
+                    <div class="catalog_counter">0</div>
+                </div>  
+                   <i class="fas fa-user-circle fa-2x"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container navigation">
+            <div class="dropdown"><button class="dropbtn"><a href="./catalog.html" link="white">Каталог товаров</a></button>
+                <div class="dropdown-content">
+                  <a href="#">Гитары</a>
+                  <a href="#">Барабаны</a>
+                  <a href="#">Клавишные</a>
+                  <a href="#">Народные</a>
+                  <a href="#">Духовые</a>
+                </div>
+                <button class="dropbtn">Фильтры</button>
+                <button class="dropbtn">Акции</button>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+    <div class="catalog_counter">0</div>
+    <section class="container_products">
+        <!-- <div class="item">
+            <div class="name">Product1</div>
+            <div class="image"></div>
+            <div class="price">111</div>
+            <button class="btn">В корзину</button>
+        </div> -->
+    </section>
+    <div class="container_cart"></div>
+
+
+
+
+
+
+    <div class="section-footer">
+        <footer class="footer">
+            <div class="footer-div">
+                <a href="#">FAQ</a>
+            </div>
+            <div class="footer-div">
+                <p>Сервис</p>
+                <a href="#">Гарантия</a>
+                <a href="#">Безусловная гарантия</a>
+            </div>
+            <div class="footer-div">
+                <p>Магазин</p>
+                <a href="#">О нас</a>
+                <a href="#">Оплата</a>
+                <a href="#">Доставка</a>
+                <a href="#">Безналичный расчет</a>
+                <a href="#">Реквизиты</a>
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+            <div class="footer-div">
+                <a href="#">Контакты</a>
+                <p>г. Минск, ул. Короля 20 <br>(вход со двора)</p>
+                <p>+375(29)0080-33-44<br>
+                    +375(33)0080-33-44<br>
+                    +375(25)0080-33-44</p>
+                <p>Пн-Вс 10.00 - 20.00</p>
+                <a href="#">Посмотреть на карте</a>
+            </div>
+        </footer>
+
+    
+    <script src="./script2.js"></script>
+    <script src="./createproduct.js"></script>
+    <script src="./store.js"></script>
+    <script src="./catalog.js"></script>
+    <script src="./cart.js"></script>
+</body>
+</html>
